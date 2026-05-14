@@ -536,7 +536,7 @@ double cbl::interpolated_2D (const double _x1, const double _x2, const std::vect
   gsl_interp2d_free(interp);
   gsl_interp_accel_free(x1acc);
   gsl_interp_accel_free(x2acc);
-  delete ydata;
+  delete[] ydata;
 
   return val;
 }

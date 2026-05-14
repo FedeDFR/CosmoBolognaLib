@@ -323,3 +323,5 @@ External/CLASS/class
 
 
 # End of https://www.gitignore.io/api/c++,cmake,python,autotools,executable,jupyternotebook,jupyternotebooks
+
+.vscode/

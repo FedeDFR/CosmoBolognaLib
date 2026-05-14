@@ -76,7 +76,7 @@ HH = $(dir_H)*.h
 ###################
 
 FLAGS0 = -std=c++14 -fopenmp
-FLAGS = -O3 -unroll -Wall -Wextra -pedantic -Wfatal-errors -Werror 
+FLAGS = -O3 -unroll -Wall -Wextra -pedantic -Wfatal-errors
 FLAGST = $(FLAGS0) $(FLAGS) $(dirCOSMO)
 
 FLAGS_INC = -I$(dir_Recfast)include/ -I$(dir_H)
