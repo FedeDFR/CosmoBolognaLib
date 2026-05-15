@@ -133,6 +133,7 @@ m4/lt~obsolete.m4
 *.exe
 *.out
 *.app
+*.tar
 
 ### CMake ###
 CMakeLists.txt.user
