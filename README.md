@@ -23,6 +23,18 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details,
 <https://www.gnu.org/licenses/>.
 
+## Docker
+
+Para buildear la imagen, desde la raiz del proyecto:
+
+```bash
+docker build -t cbl .
+```
+Para iniciar contenedor de docker:
+
+```bash
+docker run -it cbl
+```
 
 ## Versions
 
