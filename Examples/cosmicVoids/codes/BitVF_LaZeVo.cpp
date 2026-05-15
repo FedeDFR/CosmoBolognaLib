@@ -57,7 +57,7 @@ int main () {
     const double threshold = 0.;
 
     // conditions for print the displacement and the divergence field 
-    vector<bool> print={true,true}
+    vector<bool> print={true,true};
 
     // catalogue constructor
     Catalogue void_catalogue = Catalogue(VoidAlgorithm::_LaZeVo_, tracer_catalogue, random_catalogue, dir_output, output, cellsize, n_rec, step_size, threshold, print);
