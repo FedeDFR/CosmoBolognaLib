@@ -36,6 +36,24 @@ Para iniciar contenedor de docker:
 docker run -it cbl
 ```
 
+## Compilar
+
+Para compilar desde la raiz ejecutar el comando
+
+```bash
+make
+```
+
+Despues para ejecutar el example de LaZeVo ir a la direccion Examples/cosmicVoids/codes y ahi ejecutar
+
+```bash
+make
+
+make BitVF_LaZeVo
+
+./BitVF_LaZeVo
+```
+
 ## Versions
 
 V1.0 first version of the CosmoBolognaLib uploaded on github

@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TERM=xterm
-ENV LIBRARY_PATH="/usr/lib/gcc/x86_64-linux-gnu/11:${LIBRARY_PATH}"
+ENV LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11
 
 RUN apt-get update && apt-get install -y \
     build-essential \
